@@ -1,0 +1,68 @@
+.
+├── code-templates
+│   ├── class-abstract.py
+│   ├── class-concrete.py
+│   ├── class-interface.py
+│   ├── module.py
+│   └── package__init__.py
+├── hms-artisan
+│   ├── bin
+│   ├── etc
+│   │   └── hms
+│   ├── Makefile
+│   ├── README.md
+│   ├── setup.py
+│   ├── src
+│   │   └── hms_artisan
+│   │       └── __init__.py
+│   └── var
+│       └── cache
+│           └── hms
+├── hms-artisan.geany
+├── hms-co-app
+│   ├── bin
+│   ├── etc
+│   │   └── hms
+│   ├── Makefile
+│   ├── README.md
+│   ├── setup.py
+│   ├── src
+│   │   └── hms_co
+│   │       └── __init__.py
+│   └── var
+│       └── cache
+│           └── hms
+├── hms-co-app.geany
+├── hms-core
+│   ├── bin
+│   ├── etc
+│   │   └── hms
+│   ├── Makefile
+│   ├── README.md
+│   ├── setup.py
+│   ├── src
+│   │   └── hms_core
+│   │       └── __init__.py
+│   └── var
+│       └── cache
+│           └── hms
+├── hms-core.geany
+├── hms-gateway
+│   ├── bin
+│   ├── etc
+│   │   └── hms
+│   ├── Makefile
+│   ├── README.md
+│   ├── setup.py
+│   ├── src
+│   │   └── hms_gateway
+│   │       └── __init__.py
+│   └── var
+│       └── cache
+│           └── hms
+├── hms-gateway.geany
+├── hms_sys.geany
+├── README.md
+└── tree.txt
+
+46 directories, 52 files
