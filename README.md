@@ -24,7 +24,7 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All of the code is organized into folders. For example, Chapter01.
 
 The code will look like the following:
 ```
@@ -58,18 +58,6 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Get to Know the Author
 **Brian Allbee**
 has been writing programs since the mid-1970s, and started a career in software just as the World Wide Web was starting to take off. He has worked in areas as varied as organization membership management, content/asset management, and process and workflow automation in industries as varied as advertising, consumer health advisement, technical publication, and cloud-computing automation. He has focused exclusively on Python solutions for the best part of a decade
-
-****
-0
-
-****
-0
-
-****
-0
-
-****
-0
 
 
 ### Suggestions and Feedback
