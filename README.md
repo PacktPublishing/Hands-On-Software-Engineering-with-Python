@@ -51,9 +51,6 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Mastering Python Design Patterns - Second Edition [[Packt]](https://www.packtpub.com/application-development/mastering-python-design-patterns-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788837484 ) [[Amazon]](https://www.amazon.com/dp/1788837487)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **Brian Allbee**
