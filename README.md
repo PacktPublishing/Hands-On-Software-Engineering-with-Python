@@ -7,7 +7,7 @@ This is the code repository for [](https://www.packtpub.com/application-developm
 **Move beyond basic programming and construct reliable and efficient software with complex code**
 
 ## What is this book about?
-0
+
 
 This book covers the following exciting features:
 
