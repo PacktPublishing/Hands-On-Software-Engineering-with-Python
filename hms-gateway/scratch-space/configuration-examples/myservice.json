@@ -1,0 +1,16 @@
+{
+    "logging": {
+        "log_level": "INFO",
+        "console_capture": ["INFO","WARNING"],
+        "log_file": "/var/log/myservice/activity.log"
+    },
+    "queue": {
+        "queue_type": "rabbit",
+        "queue_check": 5,
+        "server": "10.1.10.1",
+        "port": 5672,
+        "queue_name": "my-queue",
+        "user": "username",
+        "password": "password"
+    }
+}

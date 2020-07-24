@@ -1,0 +1,1 @@
+# The cache directory for hms applications and services

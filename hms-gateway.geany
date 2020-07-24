@@ -21,22 +21,32 @@ indent_mode=2
 name=HMS Artisan Gateway
 base_path=/home/ballbee/git/hms_sys/hms-gateway
 description=
+file_patterns=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=5
-FILE_NAME_0=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-abstract.py;0;4
+current_page=14
+FILE_NAME_0=3994;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-abstract.py;0;4
 FILE_NAME_1=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-concrete.py;0;4
 FILE_NAME_2=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-interface.py;0;4
 FILE_NAME_3=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fmodule.py;0;4
 FILE_NAME_4=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fpackage__init__.py;0;4
-FILE_NAME_5=208;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2FREADME.md;0;4
+FILE_NAME_5=453;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2FREADME.md;0;4
+FILE_NAME_6=81;None;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Frequirements.txt;0;4
+FILE_NAME_7=533;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fsrc%2Fhms_gateway%2F__init__.py;0;4
+FILE_NAME_8=566;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fscratch-space%2Fpy_daemon_example.py;0;4
+FILE_NAME_9=540;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fscratch-space%2Fpy_daemon_func.py;0;4
+FILE_NAME_10=0;Conf;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fscratch-space%2Fconfiguration-examples%2Fmyservice.ini;0;4
+FILE_NAME_11=297;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fscratch-space%2Fconfiguration-examples%2Fini_config.py;0;4
+FILE_NAME_12=2;JSON;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fscratch-space%2Fconfiguration-examples%2Fmyservice.json;0;4
+FILE_NAME_13=76;YAML;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fscratch-space%2Fconfiguration-examples%2Fmyservice.yaml;0;4
+FILE_NAME_14=1812;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-gateway%2Fscratch-space%2Flogging-examples%2Flogging-example.py;0;4
 
 [VTE]
-last_dir=/home/ballbee/Dropbox/projects (1)/vehicle_logbook/vlogbook
+last_dir=/home/ballbee/git/hms_sys/hms-gateway
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
@@ -45,3 +55,8 @@ ignored_dirs_patterns=.*;CVS;
 ignored_file_patterns=*.o;*.obj;*.a;*.lib;*.so;*.dll;*.lo;*.la;*.class;*.jar;*.pyc;*.mo;*.gmo;
 generate_tag_prefs=0
 external_dirs=
+
+[build-menu]
+EX_00_LB=_Execute
+EX_00_CM=PYTHONPATH=~/git/hms_sys/hms-gateway/src:~/git/hms_sys/hms-core/src:~/py_envs/hms/gateway/lib/python3.5/site-packages:~/py_envs/hms/core/lib/python3.5/site-packages ~/py_envs/hms/core/bin/python "%f"
+EX_00_WD=

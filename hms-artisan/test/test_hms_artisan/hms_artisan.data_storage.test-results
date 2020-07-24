@@ -1,0 +1,19 @@
+
+################################################################################
+Unit-test Results: hms_artisan.data_storage
+#------------------------------------------------------------------------------#
+Tests were SUCCESSFUL
+Number of tests run ....... 12
+Number of tests skipped ... 4
+Tests ran in .......... 0.004 seconds
+#------------------------------------------------------------------------------#
+List of skipped tests and the reasons they were skipped:
+test_load_objects (__main__.testJSONFileDataObject)
+ - Since the file-load process provided by _load_objects is used by mahy of the CRUD operations, it is tested  as part of testCRUDOperations
+testdelete (__main__.testJSONFileDataObject)
+ - Since deleting a data-file is part of the CRUD operations, it is tested as part of testCRUDOperations
+testget (__main__.testJSONFileDataObject)
+ - Since reading data-files is part of the CRUD operations, it is tested as part of testCRUDOperations
+testsave (__main__.testJSONFileDataObject)
+ - Since creating a data-file is part of the CRUD operations, it is tested as part of testCRUDOperations
+################################################################################

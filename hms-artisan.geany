@@ -21,22 +21,31 @@ indent_mode=2
 name=HMS Artisan Application
 base_path=/home/ballbee/git/hms_sys/hms-artisan
 description=
+file_patterns=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=5
-FILE_NAME_0=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-abstract.py;0;4
-FILE_NAME_1=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-concrete.py;0;4
-FILE_NAME_2=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-interface.py;0;4
-FILE_NAME_3=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fmodule.py;0;4
-FILE_NAME_4=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fpackage__init__.py;0;4
-FILE_NAME_5=174;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2FREADME.md;0;4
+current_page=13
+FILE_NAME_0=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fmodule.py;0;4
+FILE_NAME_1=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fpackage__init__.py;0;4
+FILE_NAME_2=3994;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-abstract.py;0;4
+FILE_NAME_3=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-concrete.py;0;4
+FILE_NAME_4=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-interface.py;0;4
+FILE_NAME_5=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Ftest-module.py;0;4
+FILE_NAME_6=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Ftest-case-class.py;0;4
+FILE_NAME_7=174;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2FREADME.md;0;4
+FILE_NAME_8=566;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2Fsrc%2Fhms_artisan%2F__init__.py;0;4
+FILE_NAME_9=9715;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2Fsrc%2Fhms_artisan%2Fartisan_objects.py;0;4
+FILE_NAME_10=12580;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2Fsrc%2Fhms_artisan%2Fdata_storage.py;0;4
+FILE_NAME_11=2872;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2Ftest%2Ftest_hms_artisan%2F__init__.py;0;4
+FILE_NAME_12=49439;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2Ftest%2Ftest_hms_artisan%2Ftest_artisan_objects.py;0;4
+FILE_NAME_13=9901;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2Ftest%2Ftest_hms_artisan%2Ftest_data_storage.py;0;4
 
 [VTE]
-last_dir=/home/ballbee/Dropbox/projects (1)/vehicle_logbook/vlogbook
+last_dir=/home/ballbee/git/hms_sys
 
 [prjorg]
 source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
@@ -45,3 +54,8 @@ ignored_dirs_patterns=.*;CVS;
 ignored_file_patterns=*.o;*.obj;*.a;*.lib;*.so;*.dll;*.lo;*.la;*.class;*.jar;*.pyc;*.mo;*.gmo;
 generate_tag_prefs=0
 external_dirs=
+
+[build-menu]
+EX_00_LB=_Execute
+EX_00_CM=PYTHONPATH=~/git/hms_sys/hms-artisan/src/:~/git/hms_sys/hms-core/src/:~/git/hms_sys/standards/:~/py_envs/hms/core/lib/python3.5/site-packages/ ~/py_envs/hms/artisan/bin/python "%f"
+EX_00_WD=

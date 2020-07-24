@@ -1,14 +1,5 @@
 #!/usr/bin/env python
 
-# Python unit-test-module template. Copy the template to a new
-# unit-test-module location, and start replacing names as needed:
-#
-# hms_core  ==> The path/namespace of the parent of the module/package
-#                  being tested in this file.
-# ModuleName   ==> The name of the module being tested
-#
-# Then remove this comment-block
-
 """
 Defines unit-tests for the module at hms_core.
 """
@@ -20,12 +11,12 @@ Defines unit-tests for the module at hms_core.
 #######################################
 
 __all__ = [
-    # Constants
-    # Exceptions
-    # Functions
-    # ABC "interface" classes
-    # ABC abstract classes
-    # Concrete classes
+    # Test-case classes
+    # Child test-modules
+    'test_business_objects',
+    'test_co_objects',
+    'test_data_objects',
+    'test_data_storage',
 ]
 
 #######################################
@@ -70,6 +61,11 @@ LocalSuite = unittest.TestSuite()
 #######################################
 
 import hms_core as hms_core
+from hms_core import *
+
+#######################################
+# Constants for test-methods          #
+#######################################
 
 #######################################
 # Code-coverage test-case and         #
@@ -95,6 +91,18 @@ LocalSuite.addTests(
 #######################################
 # Child-module test-cases to execute  #
 #######################################
+
+import test_business_objects
+LocalSuite.addTests(test_business_objects.LocalSuite._tests)
+
+import test_co_objects
+LocalSuite.addTests(test_co_objects.LocalSuite._tests)
+
+import test_data_objects
+LocalSuite.addTests(test_data_objects.LocalSuite._tests)
+
+import test_data_storage
+LocalSuite.addTests(test_data_storage.LocalSuite._tests)
 
 # import child_module
 # LocalSuite.addTests(child_module.LocalSuite._tests)

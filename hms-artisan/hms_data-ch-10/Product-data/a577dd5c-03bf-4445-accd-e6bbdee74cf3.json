@@ -1,0 +1,15 @@
+{
+    "description": null,
+    "dimensions": null,
+    "is_deleted": false,
+    "available": true,
+    "summary": "summary",
+    "name": "name",
+    "is_active": true,
+    "oid": "a577dd5c-03bf-4445-accd-e6bbdee74cf3",
+    "metadata": {},
+    "store_available": true,
+    "shipping_weight": 0,
+    "modified": "2018-05-20 12:50:39",
+    "created": "2018-05-20 12:50:39"
+}

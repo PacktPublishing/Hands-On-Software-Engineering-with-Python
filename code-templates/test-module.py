@@ -66,6 +66,7 @@ LocalSuite = unittest.TestSuite()
 #######################################
 
 import PackagePath.ModuleName as ModuleName
+from PackagePath.ModuleName import *
 
 #######################################
 # Code-coverage test-case and         #

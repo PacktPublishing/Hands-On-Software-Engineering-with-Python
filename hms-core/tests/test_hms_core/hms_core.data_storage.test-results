@@ -1,0 +1,21 @@
+
+################################################################################
+Unit-test Results: hms_core.data_storage
+#------------------------------------------------------------------------------#
+Tests were SUCCESSFUL
+Number of tests run ....... 47
+Number of tests skipped ... 5
+Tests ran in .......... 0.411 seconds
+#------------------------------------------------------------------------------#
+List of skipped tests and the reasons they were skipped:
+test_del_collection (__main__.testHMSMongoDataObject)
+ - Tested in test_get_collection
+test_del_connection (__main__.testHMSMongoDataObject)
+ - Tested in test_get_connection
+test_del_database (__main__.testHMSMongoDataObject)
+ - Tested in test_get_database
+test_get_configuration (__main__.testHMSMongoDataObject)
+ - The fact that the configuration works in setUp is sufficient
+testconfigure (__main__.testHMSMongoDataObject)
+ - The fact that the configuration works in setUp is sufficient
+################################################################################

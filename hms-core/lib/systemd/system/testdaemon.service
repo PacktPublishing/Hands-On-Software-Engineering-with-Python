@@ -1,0 +1,10 @@
+[Unit]
+Description=testdaemon: a simple service example written in Python
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/python3 /usr/local/bin/testdaemon.py
+ExecStop=/usr/bin/pkill -f testdaemon.py
+
+[Install]
+WantedBy=multi-user.target

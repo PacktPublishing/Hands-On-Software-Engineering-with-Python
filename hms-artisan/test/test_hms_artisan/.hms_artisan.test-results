@@ -1,0 +1,25 @@
+
+################################################################################
+Unit-test Results: .hms_artisan
+#------------------------------------------------------------------------------#
+Tests were SUCCESSFUL
+Number of tests run ....... 113
+Number of tests skipped ... 7
+Tests ran in .......... 0.248 seconds
+#------------------------------------------------------------------------------#
+List of skipped tests and the reasons they were skipped:
+testsort (test_artisan_objects.testArtisan)
+ - Sort will be implemented once there's a need for it, and tested as part of that implementation
+testsort (test_artisan_objects.testOrder)
+ - Sort will be implemented once there's a need for it, and tested as part of that implementation
+testsort (test_artisan_objects.testProduct)
+ - Sort will be implemented once there's a need for it, and tested as part of that implementation
+test_load_objects (test_data_storage.testJSONFileDataObject)
+ - Since the file-load process provided by _load_objects is used by mahy of the CRUD operations, it is tested  as part of testCRUDOperations
+testdelete (test_data_storage.testJSONFileDataObject)
+ - Since deleting a data-file is part of the CRUD operations, it is tested as part of testCRUDOperations
+testget (test_data_storage.testJSONFileDataObject)
+ - Since reading data-files is part of the CRUD operations, it is tested as part of testCRUDOperations
+testsave (test_data_storage.testJSONFileDataObject)
+ - Since creating a data-file is part of the CRUD operations, it is tested as part of testCRUDOperations
+################################################################################

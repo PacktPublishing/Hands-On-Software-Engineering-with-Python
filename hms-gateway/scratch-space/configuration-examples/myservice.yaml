@@ -1,0 +1,19 @@
+# Logging configuration
+logging:
+  console_capture:
+    - INFO
+    - WARNING
+  log_file: /var/log/myservice/activity.log
+  log_level: INFO
+# Queue configuration
+queue:
+  queue_type: rabbit
+  # Credentials
+  user: username
+  password: password
+  # Network
+  server: 10.1.10.1
+  port: 5672
+  # Queue settings
+  queue_name: my-queue
+  queue_check: 5

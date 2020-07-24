@@ -21,19 +21,25 @@ indent_mode=2
 name=HMS Central Office Application
 base_path=/home/ballbee/git/hms_sys/hms-co-app
 description=
+file_patterns=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=5
+current_page=7
 FILE_NAME_0=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-abstract.py;0;4
-FILE_NAME_1=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-concrete.py;0;4
+FILE_NAME_1=3096;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-concrete.py;0;4
 FILE_NAME_2=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fclass-interface.py;0;4
 FILE_NAME_3=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fmodule.py;0;4
 FILE_NAME_4=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fcode-templates%2Fpackage__init__.py;0;4
 FILE_NAME_5=198;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-co-app%2FREADME.md;0;4
+FILE_NAME_6=528;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-co-app%2Fsrc%2Fhms_co%2F__init__.py;0;4
+FILE_NAME_7=46644;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-core%2Fsrc%2Fhms_core%2Fbusiness_objects.py;0;4
+FILE_NAME_8=16293;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-core%2Fsrc%2Fhms_core%2Fdata_objects.py;0;4
+FILE_NAME_9=25697;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-core%2Fsrc%2Fhms_core%2Fdata_storage.py;0;4
+FILE_NAME_10=34463;Python;0;EUTF-8;0;1;0;%2Fhome%2Fballbee%2Fgit%2Fhms_sys%2Fhms-artisan%2Fsrc%2Fhms_artisan%2Fartisan_objects.py;0;4
 
 [VTE]
 last_dir=/home/ballbee/Dropbox/projects (1)/vehicle_logbook/vlogbook
@@ -45,3 +51,8 @@ ignored_dirs_patterns=.*;CVS;
 ignored_file_patterns=*.o;*.obj;*.a;*.lib;*.so;*.dll;*.lo;*.la;*.class;*.jar;*.pyc;*.mo;*.gmo;
 generate_tag_prefs=0
 external_dirs=
+
+[build-menu]
+EX_00_LB=_Execute
+EX_00_CM=PYTHONPATH=~/git/hms_sys/hms-co/src/:~/git/hms_sys/hms-core/src/:~/git/hms_sys/standards/:~/py_envs/hms/core/lib/python3.5/site-packages/ ~/py_envs/hms/co/bin/python "%f"
+EX_00_WD=

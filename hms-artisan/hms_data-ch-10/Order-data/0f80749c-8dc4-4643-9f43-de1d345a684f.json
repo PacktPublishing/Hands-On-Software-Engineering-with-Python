@@ -1,0 +1,15 @@
+{
+    "city": "city",
+    "street_address": "street address",
+    "region": null,
+    "is_deleted": false,
+    "country": null,
+    "name": "name",
+    "is_active": true,
+    "oid": "0f80749c-8dc4-4643-9f43-de1d345a684f",
+    "building_address": null,
+    "items": {},
+    "postal_code": null,
+    "modified": "2018-05-20 12:50:39",
+    "created": "2018-05-20 12:50:39"
+}

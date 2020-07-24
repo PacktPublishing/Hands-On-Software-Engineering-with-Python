@@ -1,0 +1,13 @@
+{
+    "logging": {
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "file": {
+            "logfile": "/var/log/daemon-name.log",
+            "level": "debug"
+        },
+        "console": {
+            "level": "error"
+        },
+        "name": "daemon-name"
+    }
+}

@@ -1,0 +1,14 @@
+logging:
+  console:
+    level: error
+  file:
+    level: debug
+    logfile: /tmp/daemon-name.log
+  format: '%(asctime)s - %(name)s - %(levelname)8s - %(message)s'
+  name: daemon-name
+daemon:
+  pidfile: /tmp/testdaemon/pid
+#  stdin: /var/cache/testdaemon/daemon.in
+#  stdout: /var/cache/testdaemon/daemon.out
+#  stderr: /var/cache/testdaemon/daemon.err
+    

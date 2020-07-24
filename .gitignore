@@ -1,0 +1,10 @@
+# .gitignore for hms_sys project
+# Geany project-files
+*.geany
+
+# Build-folders
+*/dist/
+*.egg-info
+
+# __pycache__ folders
+__pycache__

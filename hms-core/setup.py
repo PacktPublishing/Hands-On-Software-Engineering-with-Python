@@ -2,6 +2,7 @@
 
 import sys
 sys.path.append('../standards')
+sys.path.append('tests/test_hms_core')
 
 from setuptools import setup
 

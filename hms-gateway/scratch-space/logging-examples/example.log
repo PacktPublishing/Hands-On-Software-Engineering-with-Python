@@ -1,0 +1,37 @@
+2018-07-08 11:00:49,791 - logging-example - INFO - Calling with no arguments
+2018-07-08 11:00:49,791 - logging-example - INFO - some_function((), {}) called
+2018-07-08 11:00:49,791 - logging-example - WARNING - some_function was called with no arguments
+2018-07-08 11:00:49,791 - logging-example - INFO - some_function complete
+2018-07-08 11:00:49,791 - logging-example - INFO - Calling with x and y values
+2018-07-08 11:00:49,791 - logging-example - INFO - some_function((1, 2), {}) called
+2018-07-08 11:00:49,791 - logging-example - DEBUG - *args exists: (1, 2)
+2018-07-08 11:00:49,792 - logging-example - DEBUG - x = 1, y = 2
+2018-07-08 11:00:49,792 - logging-example - INFO - Calling with a bad y-value
+2018-07-08 11:00:49,792 - logging-example - INFO - some_function((1, 0), {}) called
+2018-07-08 11:00:49,792 - logging-example - DEBUG - *args exists: (1, 0)
+2018-07-08 11:00:49,792 - logging-example - DEBUG - x = 1, y = 0
+2018-07-08 11:00:49,792 - logging-example - ERROR - ZeroDivisionError in some_function: division by zero
+2018-07-08 11:00:49,792 - logging-example - INFO - some_function complete
+
+
+
+
+2018-07-08 11:01:52,076 - logging-example - ERROR - ZeroDivisionError in some_function: division by zero
+
+
+
+
+2018-07-08 11:02:23,074 - logging-example - CRITICAL - This is a CRITICAL-level message
+2018-07-08 11:02:23,075 - logging-example - ERROR - This is an ERROR-level message
+2018-07-08 11:02:23,075 - logging-example - INFO - This is an INFO-level message
+2018-07-08 11:02:23,075 - logging-example - WARNING - This is a WARNING-level message
+2018-07-08 11:02:23,075 - logging-example - INFO - Calling with no arguments
+2018-07-08 11:02:23,075 - logging-example - INFO - some_function((), {}) called
+2018-07-08 11:02:23,075 - logging-example - WARNING - some_function was called with no arguments
+2018-07-08 11:02:23,076 - logging-example - INFO - some_function complete
+2018-07-08 11:02:23,076 - logging-example - INFO - Calling with x and y values
+2018-07-08 11:02:23,076 - logging-example - INFO - some_function((1, 2), {}) called
+2018-07-08 11:02:23,076 - logging-example - INFO - Calling with a bad y-value
+2018-07-08 11:02:23,076 - logging-example - INFO - some_function((1, 0), {}) called
+2018-07-08 11:02:23,076 - logging-example - ERROR - ZeroDivisionError in some_function: division by zero
+2018-07-08 11:02:23,076 - logging-example - INFO - some_function complete

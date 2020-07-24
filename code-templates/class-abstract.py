@@ -98,7 +98,7 @@ self .............. (AbstractClassName instance, required) The instance to
 #                     instance to execute against
 # arg ............... (str, required) The string argument
 # *args ............. (object*, optional) The arglist
-# **kwargs .......... (dict, optional) keywaord-args, accepts:
+# **kwargs .......... (dict, optional) keyword-args, accepts:
 #  - kwd_arg ........ (type, optional, defaults to SOMETHING) The SOMETHING 
 #                     to apply
 # """

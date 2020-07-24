@@ -1,0 +1,3 @@
+#!/bin/sh
+
+~/py_envs/hms/core/bin/python ~/git/hms_sys/hms-core/src/hms_core/daemons.py 

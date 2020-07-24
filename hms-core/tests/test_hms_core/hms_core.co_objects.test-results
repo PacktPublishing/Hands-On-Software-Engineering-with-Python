@@ -1,0 +1,15 @@
+
+################################################################################
+Unit-test Results: hms_core.co_objects
+#------------------------------------------------------------------------------#
+Tests were SUCCESSFUL
+Number of tests run ....... 55
+Number of tests skipped ... 2
+Tests ran in .......... 0.032 seconds
+#------------------------------------------------------------------------------#
+List of skipped tests and the reasons they were skipped:
+testsort (__main__.testArtisan)
+ - Sort will be implemented once there's a need for it, and tested as part of that implementation
+testsort (__main__.testProduct)
+ - Sort will be implemented once there's a need for it, and tested as part of that implementation
+################################################################################

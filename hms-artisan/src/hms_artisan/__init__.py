@@ -19,6 +19,8 @@ __all__ = [
     # ABC abstract classes
     # Concrete classes
     # Child packages and modules
+    'artisan_objects',
+    'data_storage',
 ]
 
 #######################################
