@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781788622011)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # Hands-On Software Engineering with Python
 
 <a href="https://www.packtpub.com/application-development/hands-software-engineering-python?utm_source=github&utm_medium=repository&utm_campaign=9781788622011 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09393_MockupCover_newco.png" alt="Hands-On Software Engineering with Python" height="256px" align="right"></a>
