@@ -90,7 +90,7 @@ any of several back-end data-stores.
 
     def _get_created(self) -> datetime:
         if self._created == None:
-            self.created = datetime.now()
+            self._created = datetime.now()
         return self._created
 
     def _get_is_active(self) -> (bool,):
